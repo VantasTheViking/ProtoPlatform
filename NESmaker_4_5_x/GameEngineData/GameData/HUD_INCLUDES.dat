@@ -1,0 +1,7 @@
+;; *************** HUD_INCLUDES.dat ***************
+;; HUD includes export. Friday, February 21, 2025 6:56:43 PM
+
+DrawTilesDirect #HUD_BANK, HUD__0_0_STRING, #2, #1, #HUD_OFFSET
+DrawNumber #8, #1, myLives , #BOX_0_ASSET_1_MAX_VALUE
+DrawTilesDirect #HUD_BANK, HUD__0_2_STRING, #2, #2, #HUD_OFFSET
+DrawNumber #8, #2, myScore , #BOX_0_ASSET_3_MAX_VALUE
