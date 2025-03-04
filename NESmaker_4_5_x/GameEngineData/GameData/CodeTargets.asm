@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Wednesday, March 5, 2025 11:16:01 PM
+;; Code Target data export. Tuesday, March 4, 2025 5:01:20 PM
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -103,7 +103,7 @@ SCR_TILE_09 EQU "Routines\BASE_4_5\Game\TileScripts\SolidTile.asm"
 SCR_TILE_10 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_11 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\prize_ArcadePlatformBase.asm"
 SCR_TILE_12 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\checkpoint_CheckpointBase.asm"
-SCR_TILE_13 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
+SCR_TILE_13 EQU "Routines\BASE_4_5\Game\Subroutines\KeyTile.asm"
 SCR_TILE_14 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_15 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_HANDLE_PLAYER_HURT EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Common\hurtPlayer_ArcadePlatformBase.asm"

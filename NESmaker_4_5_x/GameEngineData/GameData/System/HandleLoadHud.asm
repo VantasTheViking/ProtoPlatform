@@ -1,5 +1,5 @@
 ;; *************** HandleLoadHud.asm ***************
-;; Constants export. Wednesday, March 5, 2025 11:16:02 PM
+;; Constants export. Tuesday, March 4, 2025 5:01:20 PM
 ;; =================== HUD Element #0 =========================
 LDA #BOX_0_ASSET_0_TYPE
 STA updateHUD_ASSET_TYPE
@@ -78,5 +78,46 @@ LDA #$00
 STA hudElementTilesToLoad
 LDX #BOX_0_ASSET_3_MAX_VALUE
 PushVariableToValue myScore
+JSR HandleHudData_direct
+JSR WaitFrame
+;; =================== HUD Element #4 =========================
+LDA #BOX_0_ASSET_4_TYPE
+STA updateHUD_ASSET_TYPE
+LDA #BOX_0_ASSET_4_X
+STA updateHUD_ASSET_X
+LDA #BOX_0_ASSET_4_Y
+STA updateHUD_ASSET_Y
+LDA #BOX_0_ASSET_4_IMAGE
+STA updateHUD_IMAGE
+LDA #BOX_0_ASSET_4_BLANK
+STA updateHUD_BLANK
+LDA #BOX_0_ASSET_4_MAX_VALUE
+STA hudElementTilesFull
+LDA #$00
+STA updateHUD_offset
+LDA #$00
+STA hudElementTilesToLoad
+AssignHudLabel  HUD__0_4_STRING
+JSR HandleHudData_direct
+JSR WaitFrame
+;; =================== HUD Element #5 =========================
+LDA #BOX_0_ASSET_5_TYPE
+STA updateHUD_ASSET_TYPE
+LDA #BOX_0_ASSET_5_X
+STA updateHUD_ASSET_X
+LDA #BOX_0_ASSET_5_Y
+STA updateHUD_ASSET_Y
+LDA #BOX_0_ASSET_5_IMAGE
+STA updateHUD_IMAGE
+LDA #BOX_0_ASSET_5_BLANK
+STA updateHUD_BLANK
+LDA #BOX_0_ASSET_5_MAX_VALUE
+STA hudElementTilesFull
+LDA #$00
+STA updateHUD_offset
+LDA #$00
+STA hudElementTilesToLoad
+LDX #BOX_0_ASSET_5_MAX_VALUE
+PushVariableToValue myKeys
 JSR HandleHudData_direct
 JSR WaitFrame
