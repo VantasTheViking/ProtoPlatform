@@ -1,23 +1,23 @@
-;; Collision data export. Friday, February 21, 2025 6:56:41 PM
+;; Collision data export. Monday, March 3, 2025 10:52:11 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
 ;; Collision:
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00010000, #%00000000, #%00000001, #%00000000, #%11000000, #%00000000, #%00000000
-.db #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001
-.db #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001
+.db #%00010001, #%00010000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
+.db #%00010001, #%00010000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
+.db #%00010001, #%00010000, #%00000000, #%00000001, #%00000000, #%00000000, #%00001011, #%00000011
+.db #%01110111, #%01110111, #%10100111, #%01110111, #%00000000, #%00000000, #%00000111, #%01110111
+.db #%00000000, #%00000000, #%10100000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
+.db #%00000000, #%00000000, #%10100000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
+.db #%00000000, #%00000000, #%10100000, #%01110111, #%10100111, #%00000000, #%00000000, #%00000000
+.db #%00000000, #%00000000, #%10100000, #%00000000, #%10100000, #%00001000, #%00000000, #%00000000
+.db #%00000000, #%00000000, #%01110111, #%01110000, #%10100111, #%01110111, #%00000000, #%00000000
+.db #%00000000, #%00000000, #%00000000, #%00000000, #%10100000, #%00000000, #%00000000, #%00000000
+.db #%00000000, #%10110000, #%00000000, #%00000000, #%10100000, #%00000000, #%00000000, #%00000000
+.db #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010000, #%00000000
+.db #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010010, #%00100010
 
 Screen_Over_00_info:
 ;; Byte 1: ScreenType 
@@ -34,17 +34,17 @@ Screen_Over_00_info:
 ;; Byte 7: Path Tile mask
 	.db #$f0
 ;; Byte 8: What screen does a portal tile on this screen warp to? 
-	.db #$00
+	.db #$01
 ;; Byte 9: Y and X if player comes through a portal 
-	.db #$ce
+	.db #$00
 ;; Byte 10: (DayMonsterBank/NightMonsterBank/DayTriggerMonsterBank/NightTriggerMonsterBank/SongIndex(4bits) ) CHANGED ***** ObjectPaletteTriggeredNight2ID
 	.db #$0
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xyyy0123) x=has 8x8 pixels, yyy = GamesState 0=showTextOnLoad, 1=underground,2=animated,3=warp 
 	.db #$00
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$c4
+	.db #$99
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$f3
+	.db #$78
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 15: Monster 1 Origin Night Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
@@ -74,7 +74,7 @@ Screen_Over_00_info:
 	.db #$00
 	.db #$00
 ;; Byte 30-32: Monster Palette2:  1,2,3 ==  aaaaaabb bbbbcccc ccdddddd (DayNormal/NightNormal/DayTrig/NightTrig) ***CHANGED*** Pal2 BYTES (Day/Night/DayTr)
-	.db #$00
+	.db #$01
 	.db #$00
 	.db #$00
 ;; Byte 33: MonsterTilesetIDs - Night(4)/Day(4)   (NnnnDddd) big bit is the bank
@@ -98,13 +98,13 @@ Screen_Over_00_info:
 ;; Byte 42: Monster 4 Origin Night Triggered (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 43: Monster 1 Day ID
-	.db #$10
+	.db #$11
 ;; Byte 44: Monster 2 Day ID
-	.db #$10
+	.db #$11
 ;; Byte 45: Monster 3 Day ID
-	.db #$10
+	.db #$00
 ;; Byte 46: Monster 4 Day ID
-	.db #$10
+	.db #$00
 ;; Byte 47: Monster 1 Day Triggered ID
 	.db #$00
 ;; Byte 48: Monster 2 Day Triggered ID
@@ -130,7 +130,7 @@ Screen_Over_00_info:
 ;; Byte 58: Monster 4 Night Triggered ID
 	.db #$00
 ;; Byte 59: Song Day ID
-	.db #$02
+	.db #$00
 ;; Byte 60: Song Day Triggered ID
 	.db #$00
 ;; Byte 61: Song Night ID
@@ -140,7 +140,7 @@ Screen_Over_00_info:
 ;; Byte 63: 2nd screen bits group (UserScreenFlag0-7)
 	.db #$00
 ;; Byte 64-67: Monster State Day (GameObj2 D,N,Dt,Nt) 
-	.db #$00
+	.db #$01
 	.db #$00
 	.db #$00
 	.db #$00

@@ -1,6 +1,6 @@
 ;; Monster: Player
 GameItem0_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$13, #$20, #$33, #$00, #$00, #$00, #$41
+	.db #$00, #$13, #$20, #$36, #$00, #$00, #$00, #$41
 
 ;; Monster: Melee
 GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -58,17 +58,17 @@ GameItem13_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem14_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: FireForm
+;; Monster: Effect 7
 GameItem15_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$13, #$20, #$33, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Dragon
+;; Monster: BigBoi
 Object0_animSpeedTable:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Monstah
 Object1_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_animSpeedTable:

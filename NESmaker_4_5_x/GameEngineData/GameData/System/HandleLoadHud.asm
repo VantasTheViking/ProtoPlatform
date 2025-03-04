@@ -1,5 +1,5 @@
 ;; *************** HandleLoadHud.asm ***************
-;; Constants export. Friday, February 21, 2025 6:56:43 PM
+;; Constants export. Monday, March 3, 2025 10:52:13 PM
 ;; =================== HUD Element #0 =========================
 LDA #BOX_0_ASSET_0_TYPE
 STA updateHUD_ASSET_TYPE
@@ -35,10 +35,8 @@ LDA #BOX_0_ASSET_1_MAX_VALUE
 STA hudElementTilesFull
 LDA #$00
 STA updateHUD_offset
-LDA #$00
+AssignHudVariable  myLives, #$00
 STA hudElementTilesToLoad
-LDX #BOX_0_ASSET_1_MAX_VALUE
-PushVariableToValue myLives
 JSR HandleHudData_direct
 JSR WaitFrame
 ;; =================== HUD Element #2 =========================

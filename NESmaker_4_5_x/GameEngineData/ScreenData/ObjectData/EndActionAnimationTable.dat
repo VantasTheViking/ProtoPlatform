@@ -58,17 +58,17 @@ GameItem13_EndAction:		;;EndAnimationType / EndActionType
 GameItem14_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: FireForm
+;; Monster: Effect 7
 GameItem15_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Dragon
+;; Monster: BigBoi
 Object0_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Monstah
 Object1_EndAction:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$03, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_EndAction:
