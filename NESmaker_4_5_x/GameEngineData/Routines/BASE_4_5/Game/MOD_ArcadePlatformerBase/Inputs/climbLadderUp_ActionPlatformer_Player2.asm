@@ -1,4 +1,4 @@
-LDX player2_object
+LDX #$01
     LDA Object_x_hi,x
     CLC
     adc #$08 ;; MIDDLE OF PLAYER
@@ -20,22 +20,22 @@ LDX player2_object
     sbc #$01 ;; ladder speed
     STA Object_y_hi,x
     
-    GetActionStep player2_object
+    GetActionStep #$01
     CMP #$03 ;; in this module, the player's action step 3 is for climbing
     BEQ +alreadyOnLadder
         LDA gamepad2
         AND #%11000000
         BNE +alreadyOnLadder ;; will turn off ladder if right or left is pressed.
-        ChangeActionStep player2_object, #$03
+        ChangeActionStep #$01, #$03
         LDA Object_direction,x
         AND #%00001111
         STA Object_direction,x
     +alreadyOnLadder
      RTS
 +notLadder
-   GetActionStep player2_object
+   GetActionStep #$01
    CMP #$03
    BNE +notClimbing
-   ChangeActionStep player2_object, #$00
+   ChangeActionStep #$01, #$00
 +notClimbing
     RTS
