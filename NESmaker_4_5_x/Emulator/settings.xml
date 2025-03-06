@@ -377,7 +377,7 @@
     <DisableGameSelectionScreen>false</DisableGameSelectionScreen>
     <GameSelectionScreenResetGame>false</GameSelectionScreenResetGame>
     <ConfirmExitResetPower>false</ConfirmExitResetPower>
-    <DeveloperMode>false</DeveloperMode>
+    <DeveloperMode>true</DeveloperMode>
     <RewindBufferSize>300</RewindBufferSize>
     <OverrideGameFolder>false</OverrideGameFolder>
     <OverrideAviFolder>false</OverrideAviFolder>
@@ -1552,8 +1552,8 @@
     <CopyByteCode>false</CopyByteCode>
     <CopyComments>false</CopyComments>
     <PpuWindowLocation>
-      <X>183</X>
-      <Y>105</Y>
+      <X>701</X>
+      <Y>147</Y>
     </PpuWindowLocation>
     <PpuNametableViewerLocation>
       <X>64</X>

@@ -30,7 +30,7 @@ GameItem6_EndAction:		;;EndAnimationType / EndActionType
 GameItem7_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Player2
 GameItem8_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -70,7 +70,7 @@ Object0_EndAction:
 Object1_EndAction:
 	.db #$00, #$03, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Player2M
 Object2_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

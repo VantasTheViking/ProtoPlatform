@@ -30,7 +30,7 @@ GameItem6_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem7_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Player2
 GameItem8_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -70,7 +70,7 @@ Object0_ActionTypes:
 Object1_ActionTypes:
 	.db #$01, #$a0, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Player2M
 Object2_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

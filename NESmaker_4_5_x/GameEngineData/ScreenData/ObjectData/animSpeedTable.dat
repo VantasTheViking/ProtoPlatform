@@ -30,9 +30,9 @@ GameItem6_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem7_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Player2
 GameItem8_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$13, #$20, #$36, #$00, #$00, #$00, #$41
 
 ;; Monster: Effect 1
 GameItem9_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -70,9 +70,9 @@ Object0_animSpeedTable:
 Object1_animSpeedTable:
 	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Player2M
 Object2_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$13, #$20, #$36, #$00, #$00, #$00, #$41
 
 ;; Monster: NULL
 Object3_animSpeedTable:

@@ -207,23 +207,71 @@ GameItem7_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 8 GameItem: Effect 0
+;;;; 8 GameItem: Player2
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Effect 0
-;; Animations = 1
+;; Monster = Player2
+;; Animations = 5
 GameItem8_Lo:
-;; AnimationType = Default
+;; AnimationType = Idle
+	.db <GameItem8_2, <GameItem8_2
+	.db <GameItem8_3, <GameItem8_2
+	.db <GameItem8_2, <GameItem8_2
+	.db <GameItem8_2, <GameItem8_2
+
+;; AnimationType = Run
 	.db <GameItem8_0, <GameItem8_0
-	.db <GameItem8_0, <GameItem8_0
+	.db <GameItem8_1, <GameItem8_0
 	.db <GameItem8_0, <GameItem8_0
 	.db <GameItem8_0, <GameItem8_0
 
+;; AnimationType = Jump
+	.db <GameItem8_0, <GameItem8_0
+	.db <GameItem8_5, <GameItem8_0
+	.db <GameItem8_0, <GameItem8_0
+	.db <GameItem8_4, <GameItem8_0
+
+;; AnimationType = Climb
+	.db <GameItem8_6, <GameItem8_6
+	.db <GameItem8_6, <GameItem8_6
+	.db <GameItem8_6, <GameItem8_6
+	.db <GameItem8_6, <GameItem8_6
+
+;; AnimationType = Death
+	.db <GameItem8_7, <GameItem8_7
+	.db <GameItem8_7, <GameItem8_7
+	.db <GameItem8_7, <GameItem8_7
+	.db <GameItem8_7, <GameItem8_7
+
 GameItem8_Hi:
-;; AnimationType = Default
+;; AnimationType = Idle
+	.db >GameItem8_2, >GameItem8_2
+	.db >GameItem8_3, >GameItem8_2
+	.db >GameItem8_2, >GameItem8_2
+	.db >GameItem8_2, >GameItem8_2
+
+;; AnimationType = Run
+	.db >GameItem8_0, >GameItem8_0
+	.db >GameItem8_1, >GameItem8_0
 	.db >GameItem8_0, >GameItem8_0
 	.db >GameItem8_0, >GameItem8_0
+
+;; AnimationType = Jump
 	.db >GameItem8_0, >GameItem8_0
+	.db >GameItem8_5, >GameItem8_0
 	.db >GameItem8_0, >GameItem8_0
+	.db >GameItem8_4, >GameItem8_0
+
+;; AnimationType = Climb
+	.db >GameItem8_6, >GameItem8_6
+	.db >GameItem8_6, >GameItem8_6
+	.db >GameItem8_6, >GameItem8_6
+	.db >GameItem8_6, >GameItem8_6
+
+;; AnimationType = Death
+	.db >GameItem8_7, >GameItem8_7
+	.db >GameItem8_7, >GameItem8_7
+	.db >GameItem8_7, >GameItem8_7
+	.db >GameItem8_7, >GameItem8_7
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -406,9 +454,74 @@ Object1_Hi:
 	.db >Object1_0, >Object1_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 2 Monster Player2M
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Player2M
+;; Animations = 5
 Object2_Lo:
+;; AnimationType = Idle
+	.db <Object2_2, <Object2_2
+	.db <Object2_3, <Object2_2
+	.db <Object2_2, <Object2_2
+	.db <Object2_2, <Object2_2
+
+;; AnimationType = Run
+	.db <Object2_0, <Object2_0
+	.db <Object2_1, <Object2_0
+	.db <Object2_0, <Object2_0
+	.db <Object2_0, <Object2_0
+
+;; AnimationType = Jump
+	.db <Object2_0, <Object2_0
+	.db <Object2_5, <Object2_0
+	.db <Object2_0, <Object2_0
+	.db <Object2_4, <Object2_0
+
+;; AnimationType = Climb
+	.db <Object2_6, <Object2_6
+	.db <Object2_6, <Object2_6
+	.db <Object2_6, <Object2_6
+	.db <Object2_6, <Object2_6
+
+;; AnimationType = Death
+	.db <Object2_7, <Object2_7
+	.db <Object2_7, <Object2_7
+	.db <Object2_7, <Object2_7
+	.db <Object2_7, <Object2_7
+
 Object2_Hi:
+;; AnimationType = Idle
+	.db >Object2_2, >Object2_2
+	.db >Object2_3, >Object2_2
+	.db >Object2_2, >Object2_2
+	.db >Object2_2, >Object2_2
+
+;; AnimationType = Run
+	.db >Object2_0, >Object2_0
+	.db >Object2_1, >Object2_0
+	.db >Object2_0, >Object2_0
+	.db >Object2_0, >Object2_0
+
+;; AnimationType = Jump
+	.db >Object2_0, >Object2_0
+	.db >Object2_5, >Object2_0
+	.db >Object2_0, >Object2_0
+	.db >Object2_4, >Object2_0
+
+;; AnimationType = Climb
+	.db >Object2_6, >Object2_6
+	.db >Object2_6, >Object2_6
+	.db >Object2_6, >Object2_6
+	.db >Object2_6, >Object2_6
+
+;; AnimationType = Death
+	.db >Object2_7, >Object2_7
+	.db >Object2_7, >Object2_7
+	.db >Object2_7, >Object2_7
+	.db >Object2_7, >Object2_7
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object3_Lo:
 Object3_Hi:
