@@ -1,12 +1,12 @@
 ;; *************** ScriptTables.asm ***************
-;; Script link export. Wednesday, March 5, 2025 9:54:54 PM
+;; Script link export. Wednesday, March 5, 2025 10:34:56 PM
 ScriptAddressLo:
-	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08
+	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08, #<Script09, #<Script0a
 ScriptAddressHi:
-	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04, #>Script05, #>Script06, #>Script07, #>Script08
+	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04, #>Script05, #>Script06, #>Script07, #>Script08, #>Script09, #>Script0a
 
 TargetScriptBank:
-	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
+	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
 
 ;;=======================PRESSED=======================
 DefinedInputs_Pressed:
@@ -63,5 +63,5 @@ TargetState_Held:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 DefinedTargetScripts_Held:
-	.db #$04, #$03, #$01, #$00, #$04, #$03, #$01, #$00
+	.db #$04, #$03, #$01, #$00, #$04, #$03, #$0a, #$09
 
