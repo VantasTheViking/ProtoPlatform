@@ -471,7 +471,7 @@
     <OverscanRight>0</OverscanRight>
     <OverscanTop>0</OverscanTop>
     <OverscanBottom>0</OverscanBottom>
-    <VideoScale>4.05</VideoScale>
+    <VideoScale>4.046875</VideoScale>
     <VideoFilter>None</VideoFilter>
     <UseBilinearInterpolation>false</UseBilinearInterpolation>
     <AspectRatio>NoStretching</AspectRatio>
@@ -1552,8 +1552,8 @@
     <CopyByteCode>false</CopyByteCode>
     <CopyComments>false</CopyComments>
     <PpuWindowLocation>
-      <X>358</X>
-      <Y>87</Y>
+      <X>231</X>
+      <Y>0</Y>
     </PpuWindowLocation>
     <PpuNametableViewerLocation>
       <X>64</X>
@@ -1912,12 +1912,12 @@
   </HistoryViewerInfo>
   <GameSpecificSettings />
   <WindowLocation>
-    <X>641</X>
-    <Y>115</Y>
+    <X>803</X>
+    <Y>8</Y>
   </WindowLocation>
   <WindowSize>
     <Width>1054</Width>
-    <Height>1047</Height>
+    <Height>1046</Height>
   </WindowSize>
   <CheatWindowLocation>
     <X>0</X>

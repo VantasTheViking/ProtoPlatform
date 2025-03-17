@@ -15,8 +15,11 @@ BEQ +isPlayer
     ;arg2 = amount to add
     ;arg3 = what place value is receiving the addition?
         ;;; 0 = ones place, 1 = tens place, 2 = hundreds place, etc.
-    
+        ;DrawSprite #148, #148, #$A1,#$01
+        ;PlaySound #sfx_powerup
+        ;;CreateObject #00, #00, #$00,#$00
     AddValue #$08, myScore, #$1, #$02
     UpdateHudElement #$03
     
     +notPlayer
+    
