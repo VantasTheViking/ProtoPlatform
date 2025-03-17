@@ -1,8 +1,10 @@
 ;;; key tile
 
-CPX player1_object
-BEQ +isPlayer
-    JMP +notPlayer
+    CPX player1_object
+        BEQ +isPlayer
+        CPX #$01
+            BEQ +isPlayer
+            JMP +notPlayer
     +isPlayer
     
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; BELOW WILL CHANGE TILE AT COLLISION.

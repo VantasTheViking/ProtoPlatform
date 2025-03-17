@@ -1,5 +1,5 @@
 ;; *************** ScriptTables.asm ***************
-;; Script link export. Tuesday, March 11, 2025 9:34:04 AM
+;; Script link export. Monday, March 17, 2025 11:00:33 AM
 ScriptAddressLo:
 	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08, #<Script09, #<Script0a
 ScriptAddressHi:
