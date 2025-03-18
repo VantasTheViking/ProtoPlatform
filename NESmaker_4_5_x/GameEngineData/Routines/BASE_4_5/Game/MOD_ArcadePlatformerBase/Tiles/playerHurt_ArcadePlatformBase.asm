@@ -11,7 +11,7 @@
         AND #%00001111
         STA Object_direction,x
     
-        Dec myLives
+        DEC myLives
         LDA myLives
         BNE +myLivesNotZero
             JMP RESET ;; game over.

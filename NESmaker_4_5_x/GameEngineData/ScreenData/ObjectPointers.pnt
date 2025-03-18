@@ -522,9 +522,26 @@ Object2_Hi:
 	.db >Object2_7, >Object2_7
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 3 Monster Monstah-Jump
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Monstah-Jump
+;; Animations = 1
 Object3_Lo:
+;; AnimationType = Default
+	.db <Object3_0, <Object3_0
+	.db <Object3_1, <Object3_0
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+
 Object3_Hi:
+;; AnimationType = Default
+	.db >Object3_0, >Object3_0
+	.db >Object3_1, >Object3_0
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object4_Lo:
 Object4_Hi:

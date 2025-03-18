@@ -74,9 +74,9 @@ Object1_ActionTypes:
 Object2_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Monstah-Jump
 Object3_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$b5, #$a0, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object4_ActionTypes:

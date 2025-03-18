@@ -1,5 +1,5 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Monday, March 17, 2025 11:00:33 AM
+;; Monster list export. Tuesday, March 18, 2025 5:27:32 PM
 
 ;;;; 0	GameItem: Player ID=0
 ;;;; 1	GameItem: Melee ID=1
@@ -20,3 +20,4 @@
 ;;;; 0	Monster: BigBoi ID=0
 ;;;; 1	Monster: Monstah ID=1
 ;;;; 2	Monster: Player2M ID=2
+;;;; 3	Monster: Monstah-Jump ID=3

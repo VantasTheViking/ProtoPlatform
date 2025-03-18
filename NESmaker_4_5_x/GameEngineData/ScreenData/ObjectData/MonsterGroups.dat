@@ -1,6 +1,6 @@
 MonsterGroups:
 	.db #$00, #$00, #$00, #$00  ;ID=0	Dragons
-	.db #$00, #$01, #$01, #$01  ;ID=1	DragonsBigBoi
+	.db #$00, #$01, #$01, #$03  ;ID=1	DragonsBigBoi
 	.db #$02, #$00, #$00, #$00  ;ID=2	Player2
 	.db #$00, #$00, #$00, #$00
 	.db #$00, #$00, #$00, #$00

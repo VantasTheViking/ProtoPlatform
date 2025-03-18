@@ -74,9 +74,9 @@ Object1_animSpeedTable:
 Object2_animSpeedTable:
 	.db #$00, #$13, #$20, #$36, #$00, #$00, #$00, #$41
 
-;; Monster: NULL
+;; Monster: Monstah-Jump
 Object3_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object4_animSpeedTable:

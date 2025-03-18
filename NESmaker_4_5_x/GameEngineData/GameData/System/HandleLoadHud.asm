@@ -1,5 +1,5 @@
 ;; *************** HandleLoadHud.asm ***************
-;; Constants export. Monday, March 17, 2025 11:00:33 AM
+;; Constants export. Tuesday, March 18, 2025 5:27:32 PM
 ;; =================== HUD Element #0 =========================
 LDA #BOX_0_ASSET_0_TYPE
 STA updateHUD_ASSET_TYPE
