@@ -1,7 +1,7 @@
 ;; *************** UserVariables.asm ***************
 
 ;; *************** User Defined Vars ***************
-;; User Defined Vars export. Tuesday, March 18, 2025 5:27:32 PM
+;; User Defined Vars export. Tuesday, March 18, 2025 10:09:14 PM
 
 myLives	.dsb 1
 myScore	.dsb 1
@@ -13,3 +13,4 @@ myScore_100000	.dsb 1
 myScore_1000000	.dsb 1
 myScore_10000000	.dsb 1
 myKeys	.dsb 1
+RedKey	.dsb 1

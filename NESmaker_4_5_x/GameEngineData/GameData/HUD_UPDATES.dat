@@ -1,5 +1,5 @@
 ;; *************** HUD_UPDATES.dat ***************
-;; HUD includes export. Tuesday, March 18, 2025 5:27:32 PM
+;; HUD includes export. Tuesday, March 18, 2025 10:09:14 PM
 
 updateHudElement0:
 DrawTilesDirect #HUD_BANK, HUD__0_0_STRING, #1, #1, #HUD_OFFSET

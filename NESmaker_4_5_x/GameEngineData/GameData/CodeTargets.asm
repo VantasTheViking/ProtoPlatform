@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Tuesday, March 18, 2025 5:27:32 PM
+;; Code Target data export. Tuesday, March 18, 2025 10:09:13 PM
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -94,8 +94,8 @@ SCR_TILE_00 EQU "Routines\BASE_4_5\Game\TileScripts\BlankTile.asm"
 SCR_TILE_01 EQU "Routines\BASE_4_5\Game\TileScripts\SolidTile.asm"
 SCR_TILE_02 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\playerHurt_ArcadePlatformBase.asm"
 SCR_TILE_03 EQU "Routines\BASE_4_5\Game\TileScripts\WarpToScreen.asm"
-SCR_TILE_04 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
-SCR_TILE_05 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
+SCR_TILE_04 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\RedKey.asm"
+SCR_TILE_05 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\RedDoor.asm"
 SCR_TILE_06 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_07 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_08 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\Trampoline_ArcadePlatformBase.asm"
