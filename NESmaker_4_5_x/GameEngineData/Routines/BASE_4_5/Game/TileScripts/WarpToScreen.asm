@@ -5,12 +5,25 @@ CPX player1_object
     JMP notPlayerForWarpTile
     +isPlayer
     
-    LDA myKeys
+    ;;LDA myKeys
+    ;;CMP #$00
+    ;;BEQ notPlayerForWarpTile
+    
+    
+    ;;DEC myKeys
+    
+    LDA RedKey
     CMP #$00
-    BEQ notPlayerForWarpTile
+    BNE +ThereAreRedKeys
+        JMP notPlayerForWarpTile
+    
+        
+        
+    +ThereAreRedKeys
+    LDA #$00
+    STA RedKey
     
     
-    DEC myKeys
     WarpToScreen warpToMap, warpToScreen, #$01
     
         ;; arg0 = warp to map.  0= map1.  1= map2.

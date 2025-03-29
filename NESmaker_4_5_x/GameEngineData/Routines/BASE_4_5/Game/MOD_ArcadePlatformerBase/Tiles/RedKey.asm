@@ -4,10 +4,11 @@ CPX player1_object
             BEQ +isPlayer
             JMP +notPlayer
     +isPlayer
-	
-	
-	INC RedKey
-	ChangeTileAtCollision #$00, #$00
-	
-	
-	+notPlayer
+    
+    
+    INC RedKey
+    ChangeTileAtCollision #$00, #$00
+    UpdateHudElement #$05
+    
+    
+    +notPlayer

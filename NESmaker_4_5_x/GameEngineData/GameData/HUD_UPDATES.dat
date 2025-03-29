@@ -1,5 +1,5 @@
 ;; *************** HUD_UPDATES.dat ***************
-;; HUD includes export. Monday, March 24, 2025 8:57:42 AM
+;; HUD includes export. Wednesday, March 26, 2025 10:53:54 AM
 
 updateHudElement0:
 DrawTilesDirect #HUD_BANK, HUD__0_0_STRING, #1, #1, #HUD_OFFSET
@@ -22,7 +22,7 @@ DrawTilesDirect #HUD_BANK, HUD__0_4_STRING, #16, #1, #HUD_OFFSET
  RTS
 
 updateHudElement5:
-DrawNumber #21, #1, myKeys , #BOX_0_ASSET_5_MAX_VALUE
+DrawVariableTiles #21, #1, #BOX_0_ASSET_5_MAX_VALUE , #BOX_0_ASSET_5_BLANK , RedKey, #BOX_0_ASSET_5_IMAGE , #HUD_OFFSET 
  RTS
 
 updateHudElement6:

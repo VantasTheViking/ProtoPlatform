@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Monday, March 24, 2025 8:57:41 AM
+;; Code Target data export. Wednesday, March 26, 2025 10:53:53 AM
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -103,9 +103,9 @@ SCR_TILE_09 EQU "Routines\BASE_4_5\Game\TileScripts\SolidTile.asm"
 SCR_TILE_10 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_11 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\prize_ArcadePlatformBase.asm"
 SCR_TILE_12 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\checkpoint_CheckpointBase.asm"
-SCR_TILE_13 EQU "Routines\BASE_4_5\Game\Subroutines\KeyTile.asm"
-SCR_TILE_14 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\tile_MonsterKiller.asm"
-SCR_TILE_15 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\tile_TurnOffGenerator.asm"
+SCR_TILE_13 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
+SCR_TILE_14 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
+SCR_TILE_15 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_HANDLE_PLAYER_HURT EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Common\hurtPlayer_ArcadePlatformBase.asm"
 SCR_HANDLE_MONSTER_HURT EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_HANDLE_HUD EQU "Routines\BASE_4_5\Game\Subroutines\doHandleHud.asm"

@@ -11,5 +11,5 @@ JMP +notOpen
     ChangeTileAtCollision #$00, #$00
     
     
-    
+        
 +notOpen

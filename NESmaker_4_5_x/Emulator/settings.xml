@@ -1651,7 +1651,10 @@
       <X>0</X>
       <Y>0</Y>
     </MemoryViewerLocation>
-    <ApuViewerLocation xsi:nil="true" />
+    <ApuViewerLocation>
+      <X>224</X>
+      <Y>224</Y>
+    </ApuViewerLocation>
     <ProfilerSize>
       <Width>681</Width>
       <Height>424</Height>
@@ -1916,8 +1919,8 @@
     <Y>0</Y>
   </WindowLocation>
   <WindowSize>
-    <Width>1052</Width>
-    <Height>1044</Height>
+    <Width>1051</Width>
+    <Height>1043</Height>
   </WindowSize>
   <CheatWindowLocation>
     <X>0</X>
