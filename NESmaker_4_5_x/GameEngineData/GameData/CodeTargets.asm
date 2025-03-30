@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Wednesday, March 26, 2025 10:53:53 AM
+;; Code Target data export. Sunday, March 30, 2025 5:19:31 AM
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -99,13 +99,13 @@ SCR_TILE_05 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\RedDoor.a
 SCR_TILE_06 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_07 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_08 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\Trampoline_ArcadePlatformBase.asm"
-SCR_TILE_09 EQU "Routines\BASE_4_5\Game\TileScripts\SolidTile.asm"
+SCR_TILE_09 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\RedDoor.asm"
 SCR_TILE_10 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
-SCR_TILE_11 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\prize_ArcadePlatformBase.asm"
+SCR_TILE_11 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\BlueKey.asm"
 SCR_TILE_12 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\checkpoint_CheckpointBase.asm"
-SCR_TILE_13 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
-SCR_TILE_14 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
-SCR_TILE_15 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
+SCR_TILE_13 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\BlueDoor.asm"
+SCR_TILE_14 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\YellowKey.asm"
+SCR_TILE_15 EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Tiles\YelDoor.asm"
 SCR_HANDLE_PLAYER_HURT EQU "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Common\hurtPlayer_ArcadePlatformBase.asm"
 SCR_HANDLE_MONSTER_HURT EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_HANDLE_HUD EQU "Routines\BASE_4_5\Game\Subroutines\doHandleHud.asm"

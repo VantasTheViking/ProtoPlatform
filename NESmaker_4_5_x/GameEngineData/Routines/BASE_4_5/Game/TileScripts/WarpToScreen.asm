@@ -16,13 +16,35 @@ CPX player1_object
     CMP #$00
     BNE +ThereAreRedKeys
         JMP notPlayerForWarpTile
+        +ThereAreRedKeys
+        LDA YelKey
+        CMP #$00
+        BNE +ThereAreYelKeys
+            JMP notPlayerForWarpTile
+            +ThereAreYelKeys
+            LDA BlueKey
+            CMP #$00
+            BNE +ThereAreBlueKeys
+                JMP notPlayerForWarpTile
+        
     
         
         
-    +ThereAreRedKeys
-    LDA #$00
-    STA RedKey
+                +ThereAreBlueKeys
+                LDA #$00
+                STA RedKey
+                STA YelKey
+                STA BlueKey
     
+    
+    UpdateHudElement #$00
+    UpdateHudElement #$01
+    UpdateHudElement #$02
+    UpdateHudElement #$03
+    UpdateHudElement #$04
+    UpdateHudElement #$05
+    UpdateHudElement #$06
+    UpdateHudElement #$07
     
     WarpToScreen warpToMap, warpToScreen, #$01
     

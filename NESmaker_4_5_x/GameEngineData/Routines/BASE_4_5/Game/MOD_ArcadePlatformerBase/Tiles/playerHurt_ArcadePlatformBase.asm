@@ -2,11 +2,26 @@
     ;; check to see if object colliding is a player.
     ;; if not, do not reset.
     CPX player1_object
-    BEQ +doTileReset
+        BEQ +doTileReset
+        CPX #$01
+            BEQ +doTileReset
+            JMP +dontDoTileReset
+    
+    
+    
     CPX #$01
     BEQ +doTileReset
     JMP +dontDoTileReset
         +doTileReset
+        
+        
+        LDA #$00
+        STA RedKey
+        STA YelKey
+        STA BlueKey
+    
+        
+        
         LDA Object_direction,x
         AND #%00001111
         STA Object_direction,x

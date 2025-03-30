@@ -1,9 +1,7 @@
 ;; *************** HUD_DEFINES.dat ***************
-;; HUD defines export. Wednesday, March 26, 2025 10:53:54 AM
+;; HUD defines export. Sunday, March 30, 2025 5:19:31 AM
 HUD__0_0_STRING:
 	.db #_L, #_I, #_V, #_E, #_S, #_COLON, #$FF
-HUD__0_2_STRING:
-	.db #_S, #_C, #_O, #_R, #_E, #_COLON, #$FF
 HUD__0_4_STRING:
 	.db #_K, #_E, #_Y, #_S, #_COLON, #$FF
 
@@ -13,5 +11,5 @@ SPRITE_ZERO_HBLANK = $00
 SPRITE_ZERO_X = $00
 SPRITE_ZERO_Y = $00
 
-HUD_LOAD = $fc
+HUD_LOAD = $cf
 

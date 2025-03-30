@@ -1,27 +1,13 @@
 
-;; UserDefined var init export. Wednesday, March 26, 2025 10:53:54 AM
+;; UserDefined var init export. Sunday, March 30, 2025 5:19:31 AM
 
 LDA #3 ; User Defined Var 0
 STA myLives
 LDA #0 ; User Defined Var 1
-STA myScore
+STA myKeys
 LDA #0 ; User Defined Var 2
-STA myScore_10
-LDA #0 ; User Defined Var 3
-STA myScore_100
-LDA #0 ; User Defined Var 4
-STA myScore_1000
-LDA #0 ; User Defined Var 5
-STA myScore_10000
-LDA #0 ; User Defined Var 6
-STA myScore_100000
-LDA #0 ; User Defined Var 7
-STA myScore_1000000
-LDA #0 ; User Defined Var 8
-STA myScore_10000000
-LDA #0 ; User Defined Var 9
-STA BlueKey
-LDA #0 ; User Defined Var 10
 STA RedKey
-LDA #0 ; User Defined Var 11
-STA YellowKey
+LDA #0 ; User Defined Var 3
+STA BlueKey
+LDA #0 ; User Defined Var 4
+STA YelKey

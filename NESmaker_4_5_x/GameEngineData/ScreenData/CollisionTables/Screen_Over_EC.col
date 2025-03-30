@@ -1,5 +1,6 @@
-;; Collision data export. Wednesday, March 26, 2025 10:53:53 AM
-;; GraphicBankID = 0x01
+;; *************** NULL SCREEN ***************
+;; Collision data export. Sunday, March 30, 2025 5:19:30 AM
+;; GraphicBankID = 0x00
 ;; PaletteID = 0x00
 
 ;; Collision:
@@ -40,7 +41,7 @@ Screen_Over_ec_info:
 ;; Byte 10: (DayMonsterBank/NightMonsterBank/DayTriggerMonsterBank/NightTriggerMonsterBank/SongIndex(4bits) ) CHANGED ***** ObjectPaletteTriggeredNight2ID
 	.db #$0
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xyyy0123) x=has 8x8 pixels, yyy = GamesState 0=showTextOnLoad, 1=underground,2=animated,3=warp 
-	.db #$80
+	.db #$00
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
