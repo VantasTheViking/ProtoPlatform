@@ -1,11 +1,7 @@
-;;;; 
-    TXA
-    STA temp ;; assumes the object we want to move is in x. 
-   GetActionStep temp
-    CMP #$07
-    BNE +notHurt
-        RTS
-    +notHurt   
-    StopMoving temp, #$FF, #$00
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+oStopMoving1:
+    LDX arg0_hold
+    LDA Object_direction,x
+    AND #%01001111
+    STA Object_direction,x
+
     RTS

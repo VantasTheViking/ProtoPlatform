@@ -1,5 +1,5 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Sunday, March 30, 2025 5:19:31 AM
+;; Script data export. Monday, March 31, 2025 9:20:45 AM
 Script00:
 	.include "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Inputs\climbLadderDown_ActionPlatformer.asm"
 Script01:
@@ -22,3 +22,9 @@ Script09:
 	.include "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Inputs\climbLadderDown_ActionPlatformer_Player2.asm"
 Script0a:
 	.include "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Inputs\climbLadderUp_ActionPlatformer_Player2.asm"
+Script0b:
+	.include "Routines\BASE_4_5\Game\inputScripts\stopMovingPlayer2.asm"
+Script0c:
+	.include "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Inputs\moveLeft_ActionPlatformerP2.asm"
+Script0d:
+	.include "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Inputs\moveRight_ActionPlatformerP2.asm"

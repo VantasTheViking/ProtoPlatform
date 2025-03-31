@@ -12,7 +12,7 @@
     BNE +notClimbing
         ChangeActionStep temp, #$00
     +notClimbing
-        StartMoving temp, #LEFT
+    StartMoving #$00, #LEFT
         TXA
         STA temp ;; assumes the object we want to move is in x.
         ChangeFacingDirection temp, #FACE_LEFT
